@@ -1,5 +1,6 @@
+import React from "react";
 import { GanttComponent, Inject, Edit } from "@syncfusion/ej2-react-gantt";
-import { data } from "./datasource";
+import { data } from "../data";
 export default function Gantt() {
   const taskFields = {
     id: "TaskID",
